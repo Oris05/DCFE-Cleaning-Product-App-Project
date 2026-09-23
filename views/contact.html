@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liam's Whiteboard Elixir Emporium</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="../style/addtocart.css">
+    <link rel="icon" href="../image/E.png" type="image/x-icon"/>
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <style type="text/css">.body { width: auto; }</style>
+  </head>
+  <body>
+
+
+    <header>
+
+        <div class="ee"><b>ElixerE</b></div>
+        <h1>Liam's Whiteboard Elixir Emporium</h1>
+        
+        <p> - Your one-stop shop for premium whiteboard cleaners!</p>
+
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p style="text-decoration: none;" id="count">0</p>          
+        </div>
+
+        <div class="SmallNavigation">
+            <a href="../views/home.html">HOME</a>
+                <a href="../views/faq.html">FAQ</a>
+                <a href="../views/log.html">LOG</a>
+            </div>
+        
+    </header>
+
+    <nav id="navbar">
+
+        <div class="nvigation">
+            <h3><a href="../views/log.html">LOG</a></h3>
+            <h3><a href="../views/faq.html">      FAQ</a></h3>
+            <h3><a href="../views/home.html">      HOME</a></h3>
+        </div>
+        
+        
+
+    </nav>
+
+    <main>
+        <!-- Contact page container -->
+        <div class="container_contact_page">
+            <!-- Contact box with YouTube video -->
+            <div class="container_contact_box">
+                <iframe  src="https://www.youtube.com/embed/_o7KQ9p0jLU" title="How To Clean a Whiteboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- Contact information -->
+                <div class="contact_info_text_right">
+                    <h4>Contact Information</h4>
+                    <p><b>Phone</b>: +353 1 802 6577</p>
+                    <p><b>Email</b>: DunboyneCollege@LMETB.ie</p>
+                    <p><b>Address</b>: Dunboyne Business Park, Dunboyne, Co Meath. A86 FH01</p>
+                    <p><b>Charity Number(RCN)</b>: CHY 20927</p>
+                </div>
+            </div>
+            <!-- Google Maps container -->
+            <div class="container_for_Google">
+                <!-- Location information -->
+                <div class="contact_info_text_left">
+                    <h4>Where to Find Us!</h4>
+                    <p>18, Dunboyne Business Park, Dunboyne, Co. Meath, A86 N672</p>
+                </div>
+                <!-- Responsive Google Maps iframe -->
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.36083945559!2d-6.47710432280292!3d53.42625617231252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48676db3d2239fff%3A0xd0929f8fe88c4091!2sDunboyne%20College%20of%20Further%20Education%20(DCFE)!5e0!3m2!1sen!2sie!4v1708022196867!5m2!1sen!2sie" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Liam's Whiteboard Elixir Emporium. All rights reserved.</p>
+    </footer>
+
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+        header = document.getElementById("navbar");
+        window.addEventListener("scroll",function(){
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+                    if (scrollTop > lastScrollTop){
+                        header.style.top = "-80px";
+    
+                    }else{
+    
+                        header.style.top = "0";
+                    }
+                    lastScrollTop = scrollTop;
+    
+        })
+    </script>
+
+    <script src="../addtocart.js"></script>
+
+
+
+  </body>
+</html>

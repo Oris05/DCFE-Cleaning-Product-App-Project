@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liam's Whiteboard Elixir Emporium</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="../style/addtocart.css">
+
+    <link rel="icon" href="../image/E.png" type="image/x-icon"/>
+
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <style type="text/css">.body { width: auto; }</style>
+  </head>
+  <body>
+
+    <header>
+        <div class="ee"><b>ElixerE</b></div>
+        <h1>Liam's Whiteboard Elixir Emporium</h1>
+        
+        <p> - Your one-stop shop for premium whiteboard cleaners!</p>
+
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p style="text-decoration: none;" id="count">0</p>          
+        </div>
+
+            <div class="SmallNavigation">
+                <a href="../views/contact.html">CONTACT</a>
+                <a href="../views/faq.html">FAQ</a>
+                <a href="../views/log.html">LOG</a>
+            </div>
+        
+    </header>
+
+    <nav id="navbar">
+
+        <div class="nvigation">
+            <h3><a href="../views/contact.html">CONTACT</a></h3>
+            <h3><a href="../views/faq.html">FAQ</a></h3>
+            <h3><a href="../views/log.html">LOG</a></h3>
+        </div>
+
+
+    </nav>
+
+    <main>
+
+        <!-- Main content -->
+        <div class="container">
+            <!-- Root element for dynamic content -->
+            <div id="root"></div>
+            <!-- Sidebar for cart -->
+            <div class="sidebar">
+                <div class="head"><p>MY CART</p></div>
+                <!-- Cart items container -->
+                <div id="cartItem">Your cart is empty</div>
+                <!-- Total amount -->
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">€ 0.00</h2>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Liam's Whiteboard Elixir Emporium. All rights reserved.</p>
+    </footer>
+
+
+
+    <script src="../addtocart.js"></script>
+
+
+
+  </body>
+</html>
